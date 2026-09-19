@@ -9,3 +9,5 @@
 #note{display:block;margin-top:16px;padding:16px 18px;min-height:142px;border:1px solid #d5cdb4;border-radius:7px;background:rgba(255,253,243,.42);line-height:2;transition:border-color .2s,box-shadow .2s,background-color .2s}
 #note:focus,#note:focus-visible{outline:none;outline-offset:0;border-color:#85896b;background:rgba(255,253,243,.72);box-shadow:0 0 0 3px rgba(133,137,107,.13)}
 @media(forced-colors:active){#note:focus-visible{outline:2px solid Highlight;outline-offset:2px}}
+
+.guestbook{padding:68px 0 48px;border-top:1px solid #e2dac2;scroll-margin-top:32px}.guestbook-hint,.guestbook-fallback{font-size:13px;line-height:1.9;color:#77745e}.guestbook-hint{margin:0 0 28px}.guestbook-fallback{margin-top:24px}.guestbook-fallback a{margin-left:8px}.giscus{min-height:180px}@media(max-width:760px){.guestbook{padding:44px 0 28px}.guestbook .section-head{align-items:start;gap:12px;flex-direction:column}.guestbook h2{font-size:26px}.topbar nav{gap:12px}}
